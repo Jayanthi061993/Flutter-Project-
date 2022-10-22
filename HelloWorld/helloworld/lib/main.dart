@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
         ), // AppBar
         body: const Center(
           child: Text(
-            "Displaying Simple Hello World Text",
+            "Hello World Text",
             style: TextStyle(color: Colors.black, fontSize: 30),
           ),
         ), // Container
