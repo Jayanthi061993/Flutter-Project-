@@ -10,7 +10,7 @@ class LoginPage extends StatelessWidget {
       child: Scaffold(
         body: Container(
           padding: const EdgeInsets.all(20),
-          color: Colors.white,
+          color: const Color.fromARGB(255, 189, 160, 239),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
