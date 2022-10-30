@@ -47,7 +47,7 @@ class RestaurentListPage extends StatelessWidget {
                 children: [
                   const Center(
                     child: Text(
-                      'Restaurent List Page',
+                      'Restaurent List',
                       style: TextStyle(
                           fontSize: 30,
                           color: Colors.black,
