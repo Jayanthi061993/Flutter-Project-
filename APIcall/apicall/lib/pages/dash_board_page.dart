@@ -20,7 +20,7 @@ class _DashboardPageState extends State<DashboardPage> {
             decoration: const BoxDecoration(
               image: DecorationImage(
                   alignment: Alignment.topCenter,
-                  image: AssetImage('assets/images/top_header.jpg')),
+                  image: AssetImage('assets/images/top_header2.jpg')),
             ),
           ),
           SafeArea(

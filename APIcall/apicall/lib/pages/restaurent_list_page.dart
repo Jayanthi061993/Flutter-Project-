@@ -17,7 +17,7 @@ class RestaurentListPage extends StatelessWidget {
 
     Widget shopCard(int index) {
       return Card(
-        color: Color.fromARGB(255, 212, 203, 237),
+        color: Color.fromARGB(255, 221, 215, 237),
         elevation: 5,
         child: ListTile(
           title: Text(
