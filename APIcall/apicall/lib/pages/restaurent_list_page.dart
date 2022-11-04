@@ -35,7 +35,7 @@ class RestaurentListPage extends StatelessWidget {
 
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Color.fromARGB(255, 220, 234, 237),
+        backgroundColor: Color.fromARGB(255, 192, 193, 194),
         body: SingleChildScrollView(
           child: Container(
             //color: Colors.purple,

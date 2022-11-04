@@ -1,0 +1,760 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1831,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "UjG8qXVRSSQC",
+      "etag": "ec77YG5tcco",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/UjG8qXVRSSQC",
+      "volumeInfo": {
+        "title": "Google Power Search",
+        "authors": [
+          "Stephan Spencer"
+        ],
+        "publisher": "\"O'Reilly Media, Inc.\"",
+        "publishedDate": "2011-07-23",
+        "description": "Behind Google's deceptively simple interface is immense power for both market and competitive research—if you know how to use it well. Sure, basic searches are easy, but complex searches require specialized skills. This concise book takes you through the full range of Google's powerful search-refinement features, so you can quickly find the specific information you need. Learn techniques ranging from simple Boolean logic to URL parameters and other advanced tools, and see how they're applied to real-world market research examples. Incorporate advanced search operators such as filetype:, intitle:, daterange:, and others into your queries Use Google filtering tools, including Search Within Results, Similar Pages, and SafeSearch, among others Explore the breadth of Google through auxiliary search services like Google News, Google Books, Google Blog Search, and Google Scholar Acquire advanced Google skills that result in more effective search engine optimization (SEO)",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781449311568"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1449311563"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 73,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.4.0.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=UjG8qXVRSSQC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=UjG8qXVRSSQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=UjG8qXVRSSQC&pg=PP1&dq=search+terms&hl=&cd=1&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=UjG8qXVRSSQC&dq=search+terms&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Google_Power_Search.html?hl=&id=UjG8qXVRSSQC"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=UjG8qXVRSSQC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Sure, basic searches are easy, but complex searches require specialized skills. This concise book takes you through the full range of Google&#39;s powerful search-refinement features, so you can quickly find the specific information you need."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "gqDf__ULmR8C",
+      "etag": "1cRq9DVgX2I",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/gqDf__ULmR8C",
+      "volumeInfo": {
+        "title": "Flexible Query Answering Systems",
+        "subtitle": "8th International Conference, FQAS 2009, Roskilde, Denmark, October 26-28, 2009, Proceedings",
+        "authors": [
+          "Troels Andreasen",
+          "Ronald R. Yager",
+          "Henrik Bulskov",
+          "Henning Christiansen",
+          "Henrik Legind Larsen"
+        ],
+        "publisher": "Springer Science & Business Media",
+        "publishedDate": "2009-10-15",
+        "description": "This volume constitutes the Proceedings of the 8th International Conference on Flexible Query Answering Systems, FQAS 2009, held in Roskilde, Denmark, October 26–28, 2009. FQAS 2009 was preceded by the 1994, 1996 and 1998 editions held in Roskilde, Denmark, the FQAS 2000 held in Warsaw, Poland, the 2002 held in Copenhagen, Denmark, and the 2004 and 2006 editions held in Lyon, France, and in Milan, Italy, respectively. FQAS is the premier conference concerned with the very important issue of providing users of information systems with ?exible querying capabilities, and withaneasyandintuitiveaccesstoinformation.Themainobjectiveistoachieve more expressive, informative, cooperative, and productive systems which faci- tate retrieval from information repositories such as databases, libraries, hete- geneous archives and the World-Wide Web. In targeting this objective, the c- ference draws on several research areas, such as information retrieval, database management, information ?ltering, knowledge representation, soft computing, management of multimedia information, and human–computer interaction. The conference provides a unique opportunity for researchers, developers and pr- titioners to explore new ideas and approaches in a multidisciplinary forum. The overalltopic of the FQAS conferences is innovative query systems aimed at providing easy, ?exible and human-friendly access to information. Such s- tems arebecoming increasinglyimportantalsodue to the huge andalwaysgr- ing number of users as well as the growing amount of available information.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783642049569"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3642049567"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 688,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=gqDf__ULmR8C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=gqDf__ULmR8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=gqDf__ULmR8C&pg=PA180&dq=search+terms&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=gqDf__ULmR8C&dq=search+terms&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Flexible_Query_Answering_Systems.html?hl=&id=gqDf__ULmR8C"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Flexible_Query_Answering_Systems-sample-pdf.acsm?id=gqDf__ULmR8C&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=gqDf__ULmR8C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "To each cluster, we associate a rank based on a balance of two \u003cb\u003ecriteria\u003c/b\u003e: the novelty of contents of the groups with respect to past results, and their overall similarity with respect to the original \u003cb\u003equery\u003c/b\u003e. A disambiguated \u003cb\u003equery\u003c/b\u003e is then&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "zYw3sYFtz9kC",
+      "etag": "E/ycam38ODw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/zYw3sYFtz9kC",
+      "volumeInfo": {
+        "title": "The Contemporary Thesaurus of Search Terms and Synonyms",
+        "subtitle": "A Guide for Natural Language Computer Searching",
+        "authors": [
+          "Sara D. Knapp"
+        ],
+        "publisher": "Greenwood Publishing Group",
+        "publishedDate": "2000",
+        "description": "Whether your search is limited to a single database or is as expansive as all of cyberspace, you won't find the intended results unless you use the words that work. Now in its second edition, Sara Knapp has updated and expanded this invaluable resource. Unlike any other thesaurus available, this popular guide offers a wealth of natural language options in a convenient, A-to-Z format. It's ideal for helping users find the appropriate word or words for computer searches in the humanities, social sciences, and business. The second edition has added more than 9,000 entries to the first edition's extensive list. Now, the Thesaurus contains almost 21,000 search entries! New or expanded areas include broader coverage of business terms and humanities-including arts literature, philosophy, religion, and music.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "157356107X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781573561075"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 718,
+        "printType": "BOOK",
+        "categories": [
+          "Reference"
+        ],
+        "averageRating": 3,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.2.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=zYw3sYFtz9kC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=zYw3sYFtz9kC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=zYw3sYFtz9kC&printsec=frontcover&dq=search+terms&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=zYw3sYFtz9kC&dq=search+terms&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Contemporary_Thesaurus_of_Search_Ter.html?hl=&id=zYw3sYFtz9kC"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/The_Contemporary_Thesaurus_of_Search_Ter-sample-pdf.acsm?id=zYw3sYFtz9kC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=zYw3sYFtz9kC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Are you a visual learner? Do you prefer instructions that show you how to do something - and skip the long-winded explanations? If so, then this book is for you."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ZAH1AwAAQBAJ",
+      "etag": "/wgEHJ+EpsQ",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ZAH1AwAAQBAJ",
+      "volumeInfo": {
+        "title": "Power Query for Power BI and Excel",
+        "authors": [
+          "Christopher Webb",
+          "Crossjoin Consulting Limited"
+        ],
+        "publisher": "Apress",
+        "publishedDate": "2014-07-05",
+        "description": "Power Query for Power BI and Excel is a book for people who are tired of copying and pasting data into Excel worksheets. Power Query, part of the Microsoft Power BI suite, is a tool that automates the process of getting data into Excel and will save you hours of dull, repetitive, and error-prone work! Power Query makes it easy to extract data from many different data sources, filter that data, aggregate it, clean it and perform calculations on it, finally loading that data into either your worksheet or directly into the new Excel 2013 Data Model used by Power Pivot. This concise, practical book provides a complete guide to Power Query and how to use it to solve all of your Excel data-loading problems. Power Query for Power BI and Excel goes well beyond the surface of what Power Query can do. The book goes deep into the underlying M language, showing you how to do amazing things that aren’t going to be possible from just the GUI interface that is covered in most other books. You’ll have full command of the GUI, and you’ll be able to drop into the M language to go beyond what the GUI provides. The depth in this book makes it a must-have item for anyone who is pushing Power BI and Excel to their limits in the pursuit of business intelligence from data analysis. Teaches the basics of using Power Query to load data into Excel Helps you solve common, data-related problems with Power Query Shows how to write your own solutions in the powerful M language",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781430266921"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1430266929"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 261,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.6.5.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ZAH1AwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ZAH1AwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=ZAH1AwAAQBAJ&pg=PA42&dq=search+terms&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=ZAH1AwAAQBAJ&dq=search+terms&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Power_Query_for_Power_BI_and_Excel.html?hl=&id=ZAH1AwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Power_Query_for_Power_BI_and_Excel-sample-epub.acsm?id=ZAH1AwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Power_Query_for_Power_BI_and_Excel-sample-pdf.acsm?id=ZAH1AwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ZAH1AwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "When you perform a \u003cb\u003esearch\u003c/b\u003e using the Online \u003cb\u003eSearch\u003c/b\u003e button, a new tab will appear on the Excel ribbon: the \u003cb\u003eSearch\u003c/b\u003e tab, shown in Figure 2-43. Figure 2-43. The \u003cb\u003eSearch\u003c/b\u003e tab In the Refine section, the buttons allow you to \u003cb\u003esearch\u003c/b\u003e for \u003cb\u003eterms\u003c/b\u003e in&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "77RZAAAAYAAJ",
+      "etag": "S7NPL6hQkz8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/77RZAAAAYAAJ",
+      "volumeInfo": {
+        "title": "Pennsylvania Law Encyclopedia",
+        "publishedDate": "2004",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "PSU:000062618915"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "printType": "BOOK",
+        "categories": [
+          "Law"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.3.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=77RZAAAAYAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=77RZAAAAYAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=77RZAAAAYAAJ&q=search+terms&dq=search+terms&hl=&cd=5&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=77RZAAAAYAAJ&dq=search+terms&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Pennsylvania_Law_Encyclopedia.html?hl=&id=77RZAAAAYAAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=77RZAAAAYAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "\u003cb\u003eSEARCHING\u003c/b\u003e As the lexis.com8&quot; computer-assisted legal research service is a full-text database, it allows you to \u003cb\u003esearch\u003c/b\u003e for virtually any \u003cb\u003eword\u003c/b\u003e or combination of \u003cb\u003ewords\u003c/b\u003e. (The only exceptions are certain &quot;noise \u003cb\u003ewords\u003c/b\u003e&quot; such as in, on, was,&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "g7YNeVDDbVgC",
+      "etag": "+wAwkysDsow",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/g7YNeVDDbVgC",
+      "volumeInfo": {
+        "title": "Flexible Query Answering Systems",
+        "subtitle": "7th International Conference, FQAS 2006, Milan, Italy, June 7-10, 2006",
+        "authors": [
+          "Henrik Legind Larsen",
+          "Gabriella Pasi",
+          "Daniel Ortiz-Arroyo",
+          "Troels Andreasen",
+          "Henning Christiansen"
+        ],
+        "publisher": "Springer Science & Business Media",
+        "publishedDate": "2006-05-30",
+        "description": "This book constitutes the refereed proceeding of the 7th International Conference on Flexible Query Answering Systems, FQAS 2006, held in Milan, Italy in June 2006. The 60 revised full papers presented were carefully reviewed and selected from numerous submissions. The papers are organized in topical sections on flexibility in database management and quering, vagueness and uncertainty in XML quering and retrieval, information retrieval and filtering, multimedia information access, user modeling and personalization, knowledge and data extraction, intelligent information extraction from text, and knowledge representation and reasoning.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783540346388"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3540346384"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 730,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=g7YNeVDDbVgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=g7YNeVDDbVgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=g7YNeVDDbVgC&pg=PA582&dq=search+terms&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=g7YNeVDDbVgC&dq=search+terms&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Flexible_Query_Answering_Systems.html?hl=&id=g7YNeVDDbVgC"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Flexible_Query_Answering_Systems-sample-pdf.acsm?id=g7YNeVDDbVgC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=g7YNeVDDbVgC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "&lt;document_retrieval&gt; &lt;swish_query \u003cb\u003equery\u003c/b\u003e=&quot;(talde OR aldra OR sail OR saldo OR samalda OR ekipo OR unitate OR lagunarte OR multzo OR abeltalde OR artalde OR jendetza OR nahaspila) AND (nagusi OR ugazaba OR buru OR buruzagi OR agintzaile&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "DgbhAAAAMAAJ",
+      "etag": "buFDhlw1VYs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/DgbhAAAAMAAJ",
+      "volumeInfo": {
+        "title": "Search INFORM.",
+        "publishedDate": "1986",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UOM:39015014503646"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 362,
+        "printType": "BOOK",
+        "categories": [
+          "ABI/INFORM (Information retrieval system)"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.4.2.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=DgbhAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=DgbhAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=DgbhAAAAMAAJ&pg=PA2&dq=search+terms&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=DgbhAAAAMAAJ&dq=search+terms&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Search_INFORM.html?hl=&id=DgbhAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=DgbhAAAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "hYowsYE1qDEC",
+      "etag": "7FdAqiE/EkA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/hYowsYE1qDEC",
+      "volumeInfo": {
+        "title": "Easy Search-a-Word Puzzles",
+        "authors": [
+          "Anna Pomaska",
+          "Suzanne Ross"
+        ],
+        "publisher": "Courier Corporation",
+        "publishedDate": "1991-04-01",
+        "description": "Twenty-sixnbsp;double-page puzzles invite youngsters to figure out names of pictured objects — kite, doll, bear, ball, more — and then locate each word on search-a-word grid. One to 4 letters of target words are given as hints. And when the search is over, the coloring fun begins.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0486266729"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780486266725"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 70,
+        "printType": "BOOK",
+        "categories": [
+          "Juvenile Nonfiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.2.4.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=hYowsYE1qDEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=hYowsYE1qDEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=hYowsYE1qDEC&printsec=frontcover&dq=search+terms&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=hYowsYE1qDEC&dq=search+terms&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Easy_Search_a_Word_Puzzles.html?hl=&id=hYowsYE1qDEC"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Easy_Search_a_Word_Puzzles-sample-pdf.acsm?id=hYowsYE1qDEC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=hYowsYE1qDEC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Twenty-sixnbsp;double-page puzzles invite youngsters to figure out names of pictured objects — kite, doll, bear, ball, more — and then locate each word on search-a-word grid."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "OMOwmLgbMfYC",
+      "etag": "IIXjAyrZJjk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/OMOwmLgbMfYC",
+      "volumeInfo": {
+        "title": "Out's Gay & Lesbian Guide to the Web",
+        "authors": [
+          "J. Harrison Fitch"
+        ],
+        "publisher": "Ziff Davis Press",
+        "publishedDate": "1997",
+        "description": "Describes sites on the World Wide Web of special interest to gay men and lesbians",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0789710595"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780789710598"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 284,
+        "printType": "BOOK",
+        "categories": [
+          "Social Science"
+        ],
+        "maturityRating": "MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.4.3.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=OMOwmLgbMfYC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=OMOwmLgbMfYC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=OMOwmLgbMfYC&q=search+terms&dq=search+terms&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.co.in/books?id=OMOwmLgbMfYC&dq=search+terms&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Out_s_Gay_Lesbian_Guide_to_the_Web.html?hl=&id=OMOwmLgbMfYC"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=OMOwmLgbMfYC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "\u003cb\u003eSearch\u003c/b\u003e Options features. Iust keep these simple guidelines in mind: 0 AND \u003cb\u003esearches\u003c/b\u003e are possible by selecting the match all \u003cb\u003eterms\u003c/b\u003e (AND) option and then entering whatever \u003cb\u003ewords\u003c/b\u003e you want in the \u003cb\u003esearch\u003c/b\u003e box. In the above example,&nbsp;..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "L0rrrfE0bOsC",
+      "etag": "Wu5CNjnwhv0",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/L0rrrfE0bOsC",
+      "volumeInfo": {
+        "title": "Deep Web Query Interface Understanding and Integration",
+        "authors": [
+          "Eduard C. Dragut",
+          "Weiyi Meng",
+          "Clement T. Yu"
+        ],
+        "publisher": "Morgan & Claypool Publishers",
+        "publishedDate": "2012",
+        "description": "There are millions of searchable data sources on the Web and to a large extent their contents can only be reached through their own query interfaces. There is an enormous interest in making the data in these sources easily accessible. There are primarily two general approaches to achieve this objective. The first is to surface the contents of these sources from the deep Web and add the contents to the index of regular search engines. The second is to integrate the searching capabilities of these sources and support integrated access to them. In this book, we introduce the state-of-the-art techniques for extracting, understanding, and integrating the query interfaces of deep Web data sources. These techniques are critical for producing an integrated query interface for each domain. The interface serves as the mediator for searching all data sources in the concerned domain. While query interface integration is only relevant for the deep Web integration approach, the extraction and understanding of query interfaces are critical for both deep Web exploration approaches. This book aims to provide in-depth and comprehensive coverage of the key technologies needed to create high quality integrated query interfaces automatically. The following technical issues are discussed in detail in this book: query interface modeling, query interface extraction, query interface clustering, query interface matching, query interface attribute integration, and query interface integration. Table of Contents: Introduction / Query Interface Representation and Extraction / Query Interface Clustering and Categorization / Query Interface Matching / Query Interface Attribute Integration / Query Interface Integration / Summary and Future Research",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9781608458943"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "1608458946"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 150,
+        "printType": "BOOK",
+        "categories": [
+          "Computers"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=L0rrrfE0bOsC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=L0rrrfE0bOsC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.co.in/books?id=L0rrrfE0bOsC&pg=PA54&dq=search+terms&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=L0rrrfE0bOsC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=L0rrrfE0bOsC"
+      },
+      "saleInfo": {
+        "country": "IN",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 2596,
+          "currencyCode": "INR"
+        },
+        "retailPrice": {
+          "amount": 2596,
+          "currencyCode": "INR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=L0rrrfE0bOsC&rdid=book-L0rrrfE0bOsC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 2596000000,
+              "currencyCode": "INR"
+            },
+            "retailPrice": {
+              "amountInMicros": 2596000000,
+              "currencyCode": "INR"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "IN",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.in/books/download/Deep_Web_Query_Interface_Understanding_a-sample-pdf.acsm?id=L0rrrfE0bOsC&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=L0rrrfE0bOsC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "FN consists ofall distinct \u003cb\u003eterms\u003c/b\u003e appearing in a \u003cb\u003equery\u003c/b\u003e interface. For example, the \u003cb\u003equery\u003c/b\u003e interfaces of book \u003cb\u003esearch\u003c/b\u003e engines usually have attribute names such as “title,” “author,” “ISBN,” and “category,” while those of automobile \u003cb\u003esearch\u003c/b\u003e&nbsp;..."
+      }
+    }
+  ]
+}
