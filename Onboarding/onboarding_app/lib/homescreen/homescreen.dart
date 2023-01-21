@@ -8,8 +8,9 @@ class Home_Screen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Welcome Aboard...!'),
+        title: const Text('Welcome Back...!'),
         centerTitle: true,
+        backgroundColor: Color.fromARGB(64, 165, 163, 165),
       ),
       body: const Center(
         child: Text(

@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'homescreen/homescreen.dart';
-import 'welcomescreen/welcomescreen.dart';
+import 'onboardscreen/onboardscreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,11 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Welcome Aboard!',
+      title: 'JaamBank',
       theme: ThemeData(
-        primarySwatch: Colors.lightBlue,
+        primarySwatch: Colors.grey,
       ),
-      home: const Welcome_Screen(),
+      home: Onboard_Screen(),
     );
   }
 }
