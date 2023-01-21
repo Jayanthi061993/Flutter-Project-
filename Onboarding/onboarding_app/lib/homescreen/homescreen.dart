@@ -11,6 +11,12 @@ class Home_Screen extends StatelessWidget {
         title: const Text('Welcome Aboard...!'),
         centerTitle: true,
       ),
+      body: const Center(
+        child: Text(
+          'Home Screen',
+          style: TextStyle(fontSize: 25),
+        ),
+      ),
     );
   }
 }
