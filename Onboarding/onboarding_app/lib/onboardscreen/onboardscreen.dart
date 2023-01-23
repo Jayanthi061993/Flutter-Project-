@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
-import 'package:onboarding_app/homescreen/homescreen.dart';
+import 'package:onboarding_app/loginpage/loginpage.dart';
 
 // ignore: camel_case_types
 class Onboard_Screen extends StatelessWidget {
@@ -103,6 +103,6 @@ class Onboard_Screen extends StatelessWidget {
 
   onDone(BuildContext context) {
     Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (context) => const Home_Screen()));
+        context, MaterialPageRoute(builder: (context) => const Login_Page()));
   }
 }
