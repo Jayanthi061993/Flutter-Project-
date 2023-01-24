@@ -32,3 +32,27 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
+
+class OnboardPage extends StatelessWidget {
+  
+  String assetsPath, title, desc;
+
+  OnboardPage(
+    {super.key, this.assetsPath,this.title,this.desc}
+  );
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: Column(
+        children: [
+          Image.asset(assetsPath),
+          const SizedBox(height: 20,),
+          Text(title),
+          const SizedBox(height: 20,),
+          Text(desc),
+        ],
+      ),
+    );
+  }
+}
