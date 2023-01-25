@@ -28,18 +28,15 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: ,
+      body: PageView.builder(itemBuilder: null),
     );
   }
 }
 
 class OnboardPage extends StatelessWidget {
-  
   String assetsPath, title, desc;
 
-  OnboardPage(
-    {super.key, this.assetsPath,this.title,this.desc}
-  );
+  OnboardPage({super.key, this.assetsPath, this.title, this.desc});
 
   @override
   Widget build(BuildContext context) {
@@ -47,9 +44,13 @@ class OnboardPage extends StatelessWidget {
       child: Column(
         children: [
           Image.asset(assetsPath),
-          const SizedBox(height: 20,),
+          const SizedBox(
+            height: 20,
+          ),
           Text(title),
-          const SizedBox(height: 20,),
+          const SizedBox(
+            height: 20,
+          ),
           Text(desc),
         ],
       ),
