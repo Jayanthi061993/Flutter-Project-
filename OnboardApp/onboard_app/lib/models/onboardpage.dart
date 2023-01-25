@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class OnboardPageModel {
   String? assetsPath;
   String? title;
@@ -37,8 +39,9 @@ List<OnboardPageModel> getPages() {
   OnboardPageModel onboardpagemodel = OnboardPageModel();
 
   onboardpagemodel.setAssetsPath('assets/savings1.png');
-  onboardpagemodel.setTitle('Title1');
-  onboardpagemodel.setDescription('Description1');
+  onboardpagemodel.setTitle('Save Your Balance');
+  onboardpagemodel.setDescription(
+      'Providing with Best Solution to save your balance and transactions');
 
   onboardpages.add(onboardpagemodel);
 
@@ -46,8 +49,9 @@ List<OnboardPageModel> getPages() {
   onboardpagemodel = OnboardPageModel();
 
   onboardpagemodel.setAssetsPath('assets/stripe1.png');
-  onboardpagemodel.setTitle('Title2');
-  onboardpagemodel.setDescription('Description2');
+  onboardpagemodel.setTitle('Make it Simple');
+  onboardpagemodel.setDescription(
+      'We pay attention to all your payments and find way to save your money');
 
   onboardpages.add(onboardpagemodel);
 
@@ -55,8 +59,10 @@ List<OnboardPageModel> getPages() {
   onboardpagemodel = OnboardPageModel();
 
   onboardpagemodel.setAssetsPath('assets/creditcard1.png');
-  onboardpagemodel.setTitle('Title3');
-  onboardpagemodel.setDescription('Description3');
+  onboardpagemodel.setTitle('New Banking');
+  onboardpagemodel.setDescription(
+      'Providing with Free advisory service, mobile banking application, Visa debit Cards');
 
   onboardpages.add(onboardpagemodel);
+  return onboardpages;
 }

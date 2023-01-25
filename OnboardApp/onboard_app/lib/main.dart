@@ -33,9 +33,19 @@ class _HomeScreenState extends State<HomeScreen> {
     onboardpages = getPages();
   }
 
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: PageView.builder(itemBuilder: null),
+      body: PageView.builder(
+        itemCount: onboardpages.length,
+        itemBuilder: (BuildContext context, int index) {
+          return OnboardPage(
+            assetsPath: onboardpages[index].getAssetsPath(),
+            title: onboardpages[index].getTitle(),
+            description: onboardpages[index].getDescription(),
+          );
+        },
+      ),
     );
   }
 }
@@ -48,10 +58,11 @@ class OnboardPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: avoid_unnecessary_containers
     return Container(
       child: Column(
         children: [
-          Image.asset(assetsPath!),
+          Image.asset(assetsPath!, height: 200, width: 200),
           const SizedBox(
             height: 20,
           ),
