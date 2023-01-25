@@ -25,12 +25,12 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  List<OnboardPageModel> pages = <OnboardPageModel>[];
+  List<OnboardPageModel> onboardpages = <OnboardPageModel>[];
 
   @override
   void initState() {
     super.initState();
-    pages = getPages();
+    onboardpages = getPages();
   }
 
   Widget build(BuildContext context) {
@@ -40,6 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 }
 
+// ignore: must_be_immutable
 class OnboardPage extends StatelessWidget {
   String? assetsPath, title, description;
 
