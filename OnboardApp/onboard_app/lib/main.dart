@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:onboard_app/models/onboardpage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,13 +20,19 @@ class MyApp extends StatelessWidget {
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
-
   @override
   State<HomeScreen> createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<HomeScreen> {
+  List<OnboardPageModel> pages = <OnboardPageModel>[];
+
   @override
+  void initState() {
+    super.initState();
+    pages = getPages();
+  }
+
   Widget build(BuildContext context) {
     return Scaffold(
       body: PageView.builder(itemBuilder: null),
@@ -34,24 +41,24 @@ class _HomeScreenState extends State<HomeScreen> {
 }
 
 class OnboardPage extends StatelessWidget {
-  String assetsPath, title, desc;
+  String? assetsPath, title, description;
 
-  OnboardPage({super.key, this.assetsPath, this.title, this.desc});
+  OnboardPage({super.key, this.assetsPath, this.title, this.description});
 
   @override
   Widget build(BuildContext context) {
     return Container(
       child: Column(
         children: [
-          Image.asset(assetsPath),
+          Image.asset(assetsPath!),
           const SizedBox(
             height: 20,
           ),
-          Text(title),
+          Text(title!),
           const SizedBox(
             height: 20,
           ),
-          Text(desc),
+          Text(description!),
         ],
       ),
     );
