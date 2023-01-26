@@ -12,7 +12,7 @@ class OnboardPage extends StatelessWidget {
     return Container(
       child: Column(
         children: [
-          Image.asset(assetsPath!, height: 200, width: 200),
+          Image.asset(assetsPath!),
           const SizedBox(
             height: 20,
           ),
