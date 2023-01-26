@@ -13,7 +13,7 @@ class OnboardPage extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.asset(assetsPath!, width: 250, height: 250),
+          Image.asset(assetsPath!, width: 200, height: 200),
           const SizedBox(
             height: 15,
           ),
