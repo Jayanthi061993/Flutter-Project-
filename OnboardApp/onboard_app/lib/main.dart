@@ -29,6 +29,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   List<OnboardModel> onboardpages = <OnboardModel>[];
   int currentIndex = 0;
+  PageController pageController = PageController();
 
   @override
   void initState() {
@@ -56,6 +57,7 @@ class _HomeScreenState extends State<HomeScreen> {
       //backgroundColor: const Color.fromARGB(137, 100, 90, 90),
       backgroundColor: Colors.brown,
       body: PageView.builder(
+        controller: pageController,
         itemCount: onboardpages.length,
         onPageChanged: (value) {
           setState(() {
@@ -79,7 +81,11 @@ class _HomeScreenState extends State<HomeScreen> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      pageController.animateToPage(onboardpages.length - 1,
+                          duration: const Duration(milliseconds: 400),
+                          curve: Curves.easeInCubic);
+                    },
                     child: const Text(
                       'Skip',
                       style: TextStyle(
@@ -97,7 +103,11 @@ class _HomeScreenState extends State<HomeScreen> {
                     ],
                   ),
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      pageController.animateToPage(currentIndex + 1,
+                          duration: const Duration(milliseconds: 400),
+                          curve: Curves.easeInCubic);
+                    },
                     child: const Text(
                       'Next',
                       style: TextStyle(
