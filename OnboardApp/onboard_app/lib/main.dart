@@ -57,7 +57,9 @@ class _HomeScreenState extends State<HomeScreen> {
         body: PageView.builder(
           itemCount: onboardpages.length,
           onPageChanged: (value) {
-            currentIndex = value;
+            setState(() {
+              currentIndex = value;
+            });
           },
           itemBuilder: (BuildContext context, int index) {
             return OnboardPage(
