@@ -15,28 +15,28 @@ class OnboardPage extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.asset(assetsPath!, width: 200, height: 200),
-          const SizedBox(
-            height: 40,
-          ),
           Text(
             title!,
             textAlign: TextAlign.center,
             style: const TextStyle(
               color: Color.fromARGB(255, 239, 190, 171),
               fontWeight: FontWeight.w500,
-              fontSize: 30,
+              fontSize: 35,
             ),
           ),
           const SizedBox(
-            height: 30,
+            height: 40,
+          ),
+          Image.asset(assetsPath!, width: 200, height: 200),
+          const SizedBox(
+            height: 40,
           ),
           Text(
             description!,
             textAlign: TextAlign.center,
             style: const TextStyle(
               color: Color.fromARGB(255, 239, 190, 171),
-              fontSize: 18,
+              fontSize: 20,
             ),
           ),
         ],

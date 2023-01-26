@@ -37,18 +37,23 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget pageIndexDots(bool isCurrentPage) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 2.0),
-      height: isCurrentPage ? 10.0 : 5.0,
-      width: isCurrentPage ? 10.0 : 5.0,
-      decoration:
-          BoxDecoration(color: isCurrentPage ? Colors.black : Colors.black26),
+      margin: const EdgeInsets.symmetric(horizontal: 2.0),
+      height: isCurrentPage ? 15.0 : 8.0,
+      width: isCurrentPage ? 15.0 : 8.0,
+      decoration: BoxDecoration(
+        color: isCurrentPage
+            ? const Color.fromARGB(255, 239, 190, 171)
+            : const Color.fromARGB(255, 239, 221, 214),
+        borderRadius: BorderRadius.circular(12),
+      ),
     );
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: const Color.fromARGB(137, 100, 90, 90),
+        //backgroundColor: const Color.fromARGB(137, 100, 90, 90),
+        backgroundColor: Colors.brown,
         body: PageView.builder(
           itemCount: onboardpages.length,
           onPageChanged: (value) {
@@ -56,20 +61,26 @@ class _HomeScreenState extends State<HomeScreen> {
           },
           itemBuilder: (BuildContext context, int index) {
             return OnboardPage(
-              assetsPath: onboardpages[index].getAssetsPath(),
               title: onboardpages[index].getTitle(),
+              assetsPath: onboardpages[index].getAssetsPath(),
               description: onboardpages[index].getDescription(),
             );
           },
         ),
         bottomSheet: currentIndex != onboardpages.length - 1
             ? Container(
-                color: const Color.fromARGB(137, 100, 90, 90),
+                color: Colors.brown,
                 child: Row(
                   children: [
                     InkWell(
                       onTap: () {},
-                      child: const Text('SKIP'),
+                      child: const Text(
+                        'Skip',
+                        style: TextStyle(
+                          color: Color.fromARGB(255, 239, 190, 171),
+                          fontSize: 20,
+                        ),
+                      ),
                     ),
                     Row(
                       children: [
@@ -81,7 +92,13 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     InkWell(
                       onTap: () {},
-                      child: const Text('NEXT'),
+                      child: const Text(
+                        'Next',
+                        style: TextStyle(
+                          color: Color.fromARGB(255, 239, 190, 171),
+                          fontSize: 20,
+                        ),
+                      ),
                     ),
                   ],
                 ),
