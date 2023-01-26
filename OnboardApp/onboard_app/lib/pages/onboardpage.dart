@@ -11,14 +11,15 @@ class OnboardPage extends StatelessWidget {
     // ignore: avoid_unnecessary_containers
     return Container(
       child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image.asset(assetsPath!),
+          Image.asset(assetsPath!, width: 250, height: 250),
           const SizedBox(
-            height: 20,
+            height: 15,
           ),
           Text(title!),
           const SizedBox(
-            height: 20,
+            height: 15,
           ),
           Text(description!),
         ],
