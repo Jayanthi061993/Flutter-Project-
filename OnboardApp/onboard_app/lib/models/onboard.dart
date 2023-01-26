@@ -39,7 +39,7 @@ List<OnboardModel> getPages() {
   onboardpage.setAssetsPath('assets/Free illustration 1.png');
   onboardpage.setTitle('Save Your Balance');
   onboardpage.setDescription(
-      'Providing with best solution to save your balance and transactions');
+      'We provide best solution to save your balance and transactions');
 
   onboardpages.add(onboardpage);
 

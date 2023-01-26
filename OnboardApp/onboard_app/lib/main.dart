@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:onboard_app/pages/onboardpage.dart';
 import 'package:onboard_app/models/onboard.dart';
+import 'package:onboard_app/pages/loginpage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -114,7 +115,11 @@ class _HomeScreenState extends State<HomeScreen> {
               width: MediaQuery.of(context).size.width,
               height: 60,
               color: Colors.black,
-              child: GestureDetector(
+              child: ElevatedButton(
+                // style: const ButtonStyle(backgroundColor: Colors.black),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.black,
+                ),
                 child: const Text(
                   'Get Started Here',
                   style: TextStyle(
@@ -123,9 +128,9 @@ class _HomeScreenState extends State<HomeScreen> {
                     fontSize: 30,
                   ),
                 ),
-                onTap: () {
+                onPressed: () {
                   Navigator.of(context).pushReplacement(MaterialPageRoute(
-                      builder: (BuildContext context) => LoginPage()));
+                      builder: (BuildContext context) => const LoginPage()));
                 },
               ),
             ),
