@@ -71,8 +71,10 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         bottomSheet: currentIndex != onboardpages.length - 1
             ? Container(
+                padding: const EdgeInsets.all(10.0),
                 color: Colors.brown,
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     InkWell(
                       onTap: () {},
