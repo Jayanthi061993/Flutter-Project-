@@ -37,7 +37,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
   Widget pageIndexDots(bool isCurrentPage) {
     return Container(
-      padding: EdgeInsets.symmetric(horizontal: 2.0),
+      padding: const EdgeInsets.symmetric(horizontal: 2.0),
       height: isCurrentPage ? 10.0 : 5.0,
       width: isCurrentPage ? 10.0 : 5.0,
       decoration:
@@ -48,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.brown[300],
+        backgroundColor: const Color.fromARGB(137, 100, 90, 90),
         body: PageView.builder(
           itemCount: onboardpages.length,
           onPageChanged: (value) {
@@ -64,11 +64,12 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
         bottomSheet: currentIndex != onboardpages.length - 1
             ? Container(
+                color: const Color.fromARGB(137, 100, 90, 90),
                 child: Row(
                   children: [
                     InkWell(
                       onTap: () {},
-                      child: Text('SKIP'),
+                      child: const Text('SKIP'),
                     ),
                     Row(
                       children: [
@@ -80,7 +81,7 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                     InkWell(
                       onTap: () {},
-                      child: Text('NEXT'),
+                      child: const Text('NEXT'),
                     ),
                   ],
                 ),
