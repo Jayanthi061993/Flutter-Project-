@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:onboarding_app/homescreen/homescreen.dart';
 
 // ignore: camel_case_types
-class Login_Page extends StatelessWidget {
-  const Login_Page({super.key});
+class LoginPage extends StatelessWidget {
+  const LoginPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +37,7 @@ class Login_Page extends StatelessWidget {
                 child: ElevatedButton(
                   onPressed: () {
                     Navigator.of(context).push(MaterialPageRoute(
-                        builder: (context) => const Home_Screen()));
+                        builder: (context) => const HomeScreen()));
                   },
                   child: const Text('Login'),
                 ),

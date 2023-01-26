@@ -3,8 +3,8 @@ import 'package:introduction_screen/introduction_screen.dart';
 import 'package:onboarding_app/loginpage/loginpage.dart';
 
 // ignore: camel_case_types
-class Onboard_Screen extends StatelessWidget {
-  Onboard_Screen({super.key});
+class OnboardScreen extends StatelessWidget {
+  OnboardScreen({super.key});
 
   final List<PageViewModel> pages = [
     PageViewModel(
@@ -103,6 +103,6 @@ class Onboard_Screen extends StatelessWidget {
 
   onDone(BuildContext context) {
     Navigator.pushReplacement(
-        context, MaterialPageRoute(builder: (context) => const Login_Page()));
+        context, MaterialPageRoute(builder: (context) => const LoginPage()));
   }
 }
