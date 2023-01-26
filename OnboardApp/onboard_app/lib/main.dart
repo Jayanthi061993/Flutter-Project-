@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:onboard_app/models/onboardpage.dart';
+import 'package:onboard_app/pages/onboardpage.dart';
+import 'package:onboard_app/models/onboard.dart';
 
 void main() {
   runApp(const MyApp());
@@ -25,7 +26,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  List<OnboardPageModel> onboardpages = <OnboardPageModel>[];
+  List<OnboardModel> onboardpages = <OnboardModel>[];
 
   @override
   void initState() {
@@ -45,33 +46,6 @@ class _HomeScreenState extends State<HomeScreen> {
             description: onboardpages[index].getDescription(),
           );
         },
-      ),
-    );
-  }
-}
-
-// ignore: must_be_immutable
-class OnboardPage extends StatelessWidget {
-  String? assetsPath, title, description;
-
-  OnboardPage({super.key, this.assetsPath, this.title, this.description});
-
-  @override
-  Widget build(BuildContext context) {
-    // ignore: avoid_unnecessary_containers
-    return Container(
-      child: Column(
-        children: [
-          Image.asset(assetsPath!, height: 200, width: 200),
-          const SizedBox(
-            height: 20,
-          ),
-          Text(title!),
-          const SizedBox(
-            height: 20,
-          ),
-          Text(description!),
-        ],
       ),
     );
   }
