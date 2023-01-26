@@ -52,61 +52,75 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        //backgroundColor: const Color.fromARGB(137, 100, 90, 90),
-        backgroundColor: Colors.brown,
-        body: PageView.builder(
-          itemCount: onboardpages.length,
-          onPageChanged: (value) {
-            setState(() {
-              currentIndex = value;
-            });
-          },
-          itemBuilder: (BuildContext context, int index) {
-            return OnboardPage(
-              title: onboardpages[index].getTitle(),
-              assetsPath: onboardpages[index].getAssetsPath(),
-              description: onboardpages[index].getDescription(),
-            );
-          },
-        ),
-        bottomSheet: currentIndex != onboardpages.length - 1
-            ? Container(
-                padding: const EdgeInsets.all(10.0),
-                color: Colors.brown,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                  children: [
-                    InkWell(
-                      onTap: () {},
-                      child: const Text(
-                        'Skip',
-                        style: TextStyle(
-                          color: Color.fromARGB(255, 239, 190, 171),
-                          fontSize: 20,
-                        ),
+      //backgroundColor: const Color.fromARGB(137, 100, 90, 90),
+      backgroundColor: Colors.brown,
+      body: PageView.builder(
+        itemCount: onboardpages.length,
+        onPageChanged: (value) {
+          setState(() {
+            currentIndex = value;
+          });
+        },
+        itemBuilder: (BuildContext context, int index) {
+          return OnboardPage(
+            title: onboardpages[index].getTitle(),
+            assetsPath: onboardpages[index].getAssetsPath(),
+            description: onboardpages[index].getDescription(),
+          );
+        },
+      ),
+      bottomSheet: currentIndex != onboardpages.length - 1
+          ? Container(
+              padding: const EdgeInsets.all(10.0),
+              // height: Platform.isIOS ? 10 : 20,
+              color: Colors.brown,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  InkWell(
+                    onTap: () {},
+                    child: const Text(
+                      'Skip',
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 239, 190, 171),
+                        fontSize: 20,
                       ),
                     ),
-                    Row(
-                      children: [
-                        for (int i = 0; i < onboardpages.length; i++)
-                          i == currentIndex
-                              ? pageIndexDots(true)
-                              : pageIndexDots(false)
-                      ],
-                    ),
-                    InkWell(
-                      onTap: () {},
-                      child: const Text(
-                        'Next',
-                        style: TextStyle(
-                          color: Color.fromARGB(255, 239, 190, 171),
-                          fontSize: 20,
-                        ),
+                  ),
+                  Row(
+                    children: [
+                      for (int i = 0; i < onboardpages.length; i++)
+                        i == currentIndex
+                            ? pageIndexDots(true)
+                            : pageIndexDots(false)
+                    ],
+                  ),
+                  InkWell(
+                    onTap: () {},
+                    child: const Text(
+                      'Next',
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 239, 190, 171),
+                        fontSize: 20,
                       ),
                     ),
-                  ],
+                  ),
+                ],
+              ),
+            )
+          : Container(
+              //height: Platform.isIOS ? 70 : 60,
+              height: 60,
+              color: Colors.black,
+              child: const Text(
+                'Get Started Here',
+                style: TextStyle(
+                  color: Color.fromARGB(255, 239, 190, 171),
+                  fontWeight: FontWeight.w400,
+                  fontSize: 30,
                 ),
-              )
-            : Container());
+              ),
+            ),
+    );
   }
 }
