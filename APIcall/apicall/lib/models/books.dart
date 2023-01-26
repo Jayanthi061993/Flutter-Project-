@@ -72,7 +72,10 @@ class SaleInfo {
 
   factory SaleInfo.fromMap(Map<String, dynamic> map) {
     return SaleInfo(
-      retailPrice: (map['retailPrice']),
+      //retailPrice: (map['retailPrice']),
+      retailPrice: map['retailPrice'] != null
+          ? RetailPrice.fromMap(map['retailPrice'])
+          : null,
     );
   }
 
