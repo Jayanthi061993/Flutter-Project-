@@ -36,7 +36,7 @@ class OnboardPage extends StatelessWidget {
             textAlign: TextAlign.center,
             style: const TextStyle(
               color: Color.fromARGB(255, 239, 190, 171),
-              fontSize: 20,
+              fontSize: 25,
             ),
           ),
         ],

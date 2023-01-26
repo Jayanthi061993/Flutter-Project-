@@ -110,15 +110,23 @@ class _HomeScreenState extends State<HomeScreen> {
             )
           : Container(
               //height: Platform.isIOS ? 70 : 60,
+              alignment: Alignment.center,
+              width: MediaQuery.of(context).size.width,
               height: 60,
               color: Colors.black,
-              child: const Text(
-                'Get Started Here',
-                style: TextStyle(
-                  color: Color.fromARGB(255, 239, 190, 171),
-                  fontWeight: FontWeight.w400,
-                  fontSize: 30,
+              child: GestureDetector(
+                child: const Text(
+                  'Get Started Here',
+                  style: TextStyle(
+                    color: Color.fromARGB(255, 239, 190, 171),
+                    fontWeight: FontWeight.w400,
+                    fontSize: 30,
+                  ),
                 ),
+                onTap: () {
+                  Navigator.of(context).pushReplacement(MaterialPageRoute(
+                      builder: (BuildContext context) => LoginPage()));
+                },
               ),
             ),
     );

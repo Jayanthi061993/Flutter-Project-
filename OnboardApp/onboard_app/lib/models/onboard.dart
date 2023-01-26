@@ -39,7 +39,7 @@ List<OnboardModel> getPages() {
   onboardpage.setAssetsPath('assets/Free illustration 1.png');
   onboardpage.setTitle('Save Your Balance');
   onboardpage.setDescription(
-      'Providing with Best Solution to save your balance and transactions');
+      'Providing with best solution to save your balance and transactions');
 
   onboardpages.add(onboardpage);
 
@@ -59,7 +59,7 @@ List<OnboardModel> getPages() {
   onboardpage.setAssetsPath('assets/Free illustration 3.png');
   onboardpage.setTitle('New Banking');
   onboardpage.setDescription(
-      'Providing with Free advisory service, mobile banking, Visa debit Cards');
+      'Free advisory service, mobile banking, Visa debit Cards');
 
   onboardpages.add(onboardpage);
   return onboardpages;
