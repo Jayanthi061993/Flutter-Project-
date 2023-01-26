@@ -59,7 +59,7 @@ List<OnboardModel> getPages() {
   onboardpage.setAssetsPath('assets/Free illustration 3.png');
   onboardpage.setTitle('New Banking');
   onboardpage.setDescription(
-      'Providing with Free advisory service, mobile banking application, Visa debit Cards');
+      'Providing with Free advisory service, mobile banking, Visa debit Cards');
 
   onboardpages.add(onboardpage);
   return onboardpages;
