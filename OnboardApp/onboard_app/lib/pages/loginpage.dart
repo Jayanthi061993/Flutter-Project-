@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-//import 'package:pages/dash_board_page.dart';
+import 'package:onboard_app/pages/accounts_list_page.dart';
 
 class LoginPage extends StatelessWidget {
   const LoginPage({super.key});
@@ -46,8 +46,8 @@ class LoginPage extends StatelessWidget {
                     backgroundColor: Colors.black,
                   ),
                   onPressed: () {
-                    //Navigator.of(context).push(MaterialPageRoute(
-                    //builder: (context) => null));
+                    Navigator.of(context).push(MaterialPageRoute(
+                        builder: (context) => const AccountsListPage()));
                   },
                   child: const Text('Login'),
                 ),
