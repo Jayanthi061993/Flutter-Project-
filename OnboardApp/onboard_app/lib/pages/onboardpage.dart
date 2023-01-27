@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-// ignore: must_be_immutable
 class OnboardPage extends StatelessWidget {
   String? assetsPath, title, description;
 
@@ -8,7 +7,6 @@ class OnboardPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // ignore: avoid_unnecessary_containers
     return Container(
       alignment: Alignment.center,
       padding: const EdgeInsets.symmetric(horizontal: 20),
