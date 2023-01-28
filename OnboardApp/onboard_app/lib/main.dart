@@ -44,9 +44,9 @@ class _HomeScreenState extends State<HomeScreen> {
       width: isCurrentPage ? 15.0 : 8.0,
       decoration: BoxDecoration(
         color: isCurrentPage
-            ? const Color.fromARGB(255, 239, 190, 171)
+            ? Colors.black
             : const Color.fromARGB(255, 239, 221, 214),
-        borderRadius: BorderRadius.circular(12),
+        borderRadius: BorderRadius.circular(10),
       ),
     );
   }
@@ -55,7 +55,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       //backgroundColor: const Color.fromARGB(137, 100, 90, 90),
-      backgroundColor: Colors.brown,
+      backgroundColor: Colors.black45,
       body: PageView.builder(
         controller: pageController,
         itemCount: onboardpages.length,
@@ -76,7 +76,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ? Container(
               padding: const EdgeInsets.all(10.0),
               // height: Platform.isIOS ? 10 : 20,
-              color: Colors.brown,
+              color: Colors.black45,
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -89,7 +89,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: const Text(
                       'Skip',
                       style: TextStyle(
-                        color: Color.fromARGB(255, 239, 190, 171),
+                        color: Colors.black,
+                        fontWeight: FontWeight.bold,
                         fontSize: 20,
                       ),
                     ),
@@ -111,7 +112,8 @@ class _HomeScreenState extends State<HomeScreen> {
                     child: const Text(
                       'Next',
                       style: TextStyle(
-                        color: Color.fromARGB(255, 239, 190, 171),
+                        color: Colors.black,
+                        fontWeight: FontWeight.bold,
                         fontSize: 20,
                       ),
                     ),
@@ -124,16 +126,16 @@ class _HomeScreenState extends State<HomeScreen> {
               alignment: Alignment.center,
               width: MediaQuery.of(context).size.width,
               height: 60,
-              color: Colors.black,
+              color: Colors.black45,
               child: ElevatedButton(
                 // style: const ButtonStyle(backgroundColor: Colors.black),
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.black,
+                  backgroundColor: Colors.black38,
                 ),
                 child: const Text(
                   'Get Started Here',
                   style: TextStyle(
-                    color: Color.fromARGB(255, 239, 190, 171),
+                    color: Colors.white,
                     fontWeight: FontWeight.w400,
                     fontSize: 30,
                   ),

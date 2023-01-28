@@ -16,23 +16,25 @@ class AccountsListPage extends StatelessWidget {
 
     Widget shopCard(int index) {
       return Card(
-        color: Colors.brown[200],
+        color: Colors.white,
         elevation: 5,
         child: ListTile(
           title: Text(
             accountsList[index].type,
             style: const TextStyle(
-                color: Colors.black, fontSize: 25, fontWeight: FontWeight.w500),
+                color: Colors.black,
+                fontSize: 25,
+                fontWeight: FontWeight.normal),
           ),
           subtitle: Text(
             accountsList[index].description,
-            style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
+            style: const TextStyle(fontSize: 15, fontWeight: FontWeight.normal),
           ),
           trailing: accountsList[index].amount != null
               ? Text(
-                  '${accountsList[index].amount} ₹',
+                  '₹. ${accountsList[index].amount}',
                   style: const TextStyle(
-                      fontSize: 20, fontWeight: FontWeight.w400),
+                      fontSize: 15, fontWeight: FontWeight.normal),
                 )
               : const Text(''),
         ),
@@ -41,7 +43,7 @@ class AccountsListPage extends StatelessWidget {
 
     return SafeArea(
       child: Scaffold(
-        backgroundColor: Colors.brown[300],
+        backgroundColor: Colors.black45,
         body: SingleChildScrollView(
           child: Container(
             //color: Colors.purple,
@@ -78,13 +80,13 @@ class AccountsListPage extends StatelessWidget {
                     children: [
                       const Icon(
                         Icons.add,
-                        size: 35,
+                        size: 25,
                         color: Colors.black,
                       ),
                       ElevatedButton(
                         style: ButtonStyle(
                           backgroundColor:
-                              MaterialStateProperty.all(Colors.brown[200]),
+                              MaterialStateProperty.all(Colors.white),
                         ),
                         onPressed: () {},
                         child: const Text(
